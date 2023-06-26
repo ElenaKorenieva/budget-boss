@@ -28,8 +28,8 @@ const ReportCategories = ({ onclick, data, flag: _flag }) => {
 
   const expenses = useSelector(selectAllExpenses);
   const incomes = useSelector(selectAllIncomes);
-  console.log((activeRef.id = 1));
-  console.log(activeRef);
+  // console.log((activeRef.id = 1));
+  // console.log(activeRef);
   function renderChoise(params) {
     return params.map((item, index) => (
       <li key={nanoid()} className={s.item}>

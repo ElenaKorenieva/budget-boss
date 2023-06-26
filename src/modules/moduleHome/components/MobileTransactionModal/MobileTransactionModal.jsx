@@ -30,7 +30,7 @@ const MobileTransactionModal = ({ onClose, selectedDate }) => {
         <button onClick={onClose} className={s.button}>
           <img src={icon} width="12" alt="closeicon" />
         </button>
-        <TransactionForm selectedDate={selectedDate} />
+        <TransactionForm selectedDate={selectedDate} modalView={onClose} />
       </div>
     </div>,
     modalRoot
